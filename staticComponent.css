@@ -1,0 +1,63 @@
+ 
+.all{
+  background-color: rgb(193 231 242);
+    padding-top: 45px;
+    width: 826px;
+    margin-left: -1px;
+    height: 317px;
+   margin-top: -25px;
+}
+.text{
+  padding-left: 44px;
+  font-weight: bold;
+}
+.amount{
+  padding-left: 40px;
+  padding-top: 0px;
+  font-size: 48px;
+  font-weight: bold;
+} 
+.donut {
+  /* (A1) CIRCLE */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 236px; height: 236px;
+  border-radius: 50%;
+ 
+  
+  background: conic-gradient(skyblue 0% 15%,red 15% 18%, orange 18% 24%, skyblue 24% 100%);
+}
+.hole {
+  width: 180px; height: 180px;
+  border-radius: 50%;
+  background: rgb(193 231 242);
+  text-align: center;
+    padding-top: 61px;
+    /* padding-bottom: 109px; */
+    font-size: 17px;
+    font-weight: bolder;
+}
+.doughnut{
+  
+ 
+  padding-left: 48px;
+}
+.data{
+  padding-top: 51px;
+  padding-left: 41px;
+}
+
+.fees{
+  
+  padding-top: 27px;
+    padding-left: 5px;
+}
+.interest{
+  padding-top: 3px;
+    padding-left: 26px;
+}
+.principal{
+  padding-top: 67px;
+  padding-left: 12px;
+}
